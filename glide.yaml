@@ -2,3 +2,7 @@ package: library
 import:
 - package: github.com/gin-gonic/gin
   version: ^1.2.0
+- package: github.com/go-gomail/gomail
+  version: ^2.0.0
+- package: github.com/sirupsen/logrus
+  version: ^1.0.2

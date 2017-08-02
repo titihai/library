@@ -1,5 +1,5 @@
-hash: a32f1978e296dac98f12dd402200a27149b075e5f4eda21bfb34845701e1a2af
-updated: 2017-08-01T10:15:34.4431765+08:00
+hash: 8f5d88e692f53bf5ff02fdcd3428a3f4b1b40c8c05eb2b17be1a3d99963cefaa
+updated: 2017-08-02T16:38:22.4737439+08:00
 imports:
 - name: github.com/gin-contrib/sse
   version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
@@ -8,12 +8,20 @@ imports:
   subpackages:
   - binding
   - render
+- name: github.com/go-gomail/gomail
+  version: 81ebce5c23dfd25c6c67194b37d3dd3f338c98b1
 - name: github.com/golang/protobuf
   version: 748d386b5c1ea99658fd69fe9f03991ce86a90c1
   subpackages:
   - proto
+- name: github.com/jinzhu/gorm
+  version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
+- name: github.com/jinzhu/inflection
+  version: 1c35d901db3da928c72a72d8458480cc9ade058f
 - name: github.com/mattn/go-isatty
   version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/sirupsen/logrus
+  version: a3f95b5c423586578a4e099b11a46c2479628cac
 - name: github.com/ugorji/go
   version: 5efa3251c7f7d05e5d9704a69a984ec9f1386a40
   subpackages:
@@ -22,6 +30,8 @@ imports:
   version: cd2c276457edda6df7fb04895d3fd6a6add42926
   subpackages:
   - unix
+- name: gopkg.in/alexcesaro/quotedprintable.v3
+  version: 2caba252f4dc53eaf6b553000885530023f54623
 - name: gopkg.in/go-playground/validator.v8
   version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
 - name: gopkg.in/yaml.v2
